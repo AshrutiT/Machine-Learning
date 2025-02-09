@@ -7,7 +7,7 @@ https://github.com/ImageCLEF/2023_ImageCLEFmed_Mediqa/tree/main/dataset
 
 ## Description
 
-### Tasks A & B:
+### Tasks A:
 
 The training set consists of 1,201 pairs of conversations and associated section headers and contents. 
 The validation set consists of 100 pairs of conversations and their summaries. 
@@ -36,21 +36,6 @@ The full list of normalized section headers:
 19. other_history
 20. labs
 
-
-### Task C:
-The training set consists of 67 pairs of conversations and full notes. The validation set includes 20 pairs of conversations and clinical notes. 
-
-Full encounter notes are expected to have at least one of four overall section divisions demarked by the first-occuring of its related section headers :
-
-| note_division | section_headers
-
-| subjective | chief complaint, history of present illness, hpi, subjective
-
-| objective_exam | physical exam, exam
-
-| objective_results | results, findings
-
-| assessment_and_plan | assessment, plan
 
 
 Depending on the encounter, objective_exam and objective_results may not be relevant.
